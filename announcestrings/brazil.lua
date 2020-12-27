@@ -110,7 +110,7 @@ ANNOUNCE_STRINGS = {
 		ANNOUNCE_SKIN = {
 			-- This needs to reflect the translating language's grammar
 			-- For example, this might become "I have the Tragic Torch skin for the Torch"
-			FORMAT_STRING = "Eu tenho {SKIN} para a {ITEM}.",
+			FORMAT_STRING = "Eu tenho a skin {SKIN} para a/o {ITEM}.",
 			
 			--{SKIN} comes form the skin's name
 			
@@ -139,10 +139,10 @@ ANNOUNCE_STRINGS = {
 				FREEZING = "congelando, que frio!!",
 			},
 		},
-		ANNOUNCE_SEASON = "Faltam {DAYS_LEFT} dias para o {SEASON}.",
+		ANNOUNCE_SEASON = "Faltam {DAYS_LEFT} dias para acabar a estação {SEASON}.",
 		ANNOUNCE_GIFT = {
 			CAN_OPEN = "Tenho um presente e estou prestes a abri-lo!",
-			NEED_SCIENCE = "Eu preciso de ciência adicional para abrir esse presente!",
+			NEED_SCIENCE = "Eu preciso de mais ciência para abrir esse presente!",
 		},
 		ANNOUNCE_HINT = "Anunciar",
 	},
@@ -159,12 +159,12 @@ ANNOUNCE_STRINGS = {
 			FULL  = "Meu cérebro está em condições de pico!", 			-- >75%
 			HIGH  = "Sinto-me muito bem.", 				-- >55%
 			MID   = "Estou um pouco ansioso.", 				-- >35%
-			LOW   = "Estou me sentindo um pouco louco, aqui!", 			-- >15%
-			EMPTY = "AAAAHHHH! Atrás, bestas da sombra!", 	-- <15%
+			LOW   = "Estou me sentindo um pouco louco!", 			-- >15%
+			EMPTY = "AAAAHHHH! Para trás, bestas da sombra!", 	-- <15%
 		},
 		HEALTH = {
 			FULL  = "Estou em perfeita saúde!", 	-- 100%
-			HIGH  = "Eu sou um pouco arranhado.", 	-- >75%
+			HIGH  = "Estou um pouco arranhado.", 	-- >75%
 			MID   = "Estou ferido.", 			-- >50%
 			LOW   = "Estou gravemente ferido!", 	-- >25%
 			EMPTY = "Estou mortalmente ferido!", 	-- <25%
@@ -220,13 +220,13 @@ ANNOUNCE_STRINGS = {
 			HIGH  = "Acabei de ver Bernie de pé? ... não, não importa.",
 			MID   = "Eu me sinto mais frio do que devia...",
 			LOW   = "Bernie, por que sinto tanto frio!?",
-			EMPTY = "Bernie, protege-me dessas coisas horríveis!",
+			EMPTY = "Bernie, proteja-me dessas coisas horríveis!",
 		},
 		HEALTH = {
-			FULL  = "Sem um arranhão!",
+			FULL  = "Nenhum arranhão!",
 			HIGH  = "Eu tenho um arranhão ou dois. Eu provavelmente deveria queimá-los.",
-			MID   = "Estes cortes são além da queima, preciso de um médico...",
-			LOW   = "Sinto-me fraca... Talvez... morrer.",
+			MID   = "Estes cortes são mais que queimaduras, preciso de um médico...",
+			LOW   = "Sinto-me fraca... Talvez eu... morra.",
 			EMPTY = "Meu fogo está quase acabando...",
 		},
 		WETNESS = {
@@ -234,7 +234,7 @@ ANNOUNCE_STRINGS = {
 			HIGH  = "Eu odeio toda essa água!",
 			MID   = "Esta chuva é demais.",
 			LOW   = "Ah, se a chuva continuar...",
-			EMPTY = "Chuva não suficiente para apagar o fogo.",
+			EMPTY = "Não está chovendo o bastante para apagar o fogo.",
 		},
 	},
 	WOLFGANG = {
@@ -262,8 +262,8 @@ ANNOUNCE_STRINGS = {
 		WETNESS = {
 			FULL  = "Wolfgang agora talvez feito de água!",
 			HIGH  = "É como estar sentado na lagoa.",
-			MID   = "Wolfgang não gosta de uma hora do banho.",
-			LOW   = "Tempo de água.",
+			MID   = "Wolfgang não gosta da hora do banho.",
+			LOW   = "Hora da chuva.",
 			EMPTY = "Wolfgang está seco.",
 		},
 	},
@@ -271,8 +271,8 @@ ANNOUNCE_STRINGS = {
 		HUNGER = {
 			FULL  = "Nenhuma quantidade de comida vai encher o buraco no meu coração.",
 			HIGH  = "Eu estou completa, mas ainda continuo com fome por algo que nenhum amigo pode me fornecer.",
-			MID   = "Não estou vazia, mas não completa. Estranho.",
-			LOW   = "Estou cheio de vazio.",
+			MID   = "Não estou vazia, mas também não estou cheia. Estranho.",
+			LOW   = "Estou cheia de vazio.",
 			EMPTY = "Eu encontrei a forma mais lenta de morrer. Fome.",
 		},
 		SANITY = {
@@ -284,7 +284,7 @@ ANNOUNCE_STRINGS = {
 		},
 		HEALTH = {
 			FULL  = "Estou bem, mas tenho certeza que vou me machucar outra vez.",
-			HIGH  = "Eu sinto dor, mas não muito grande.",
+			HIGH  = "Eu sinto dor, mas não muita.",
 			MID   = "A vida traz dor, mas eu não estou acostumada a isso.",
 			LOW   = "Sangrar ... seria fácil...",
 			EMPTY = "Estarei com Abigail, em breve...",
@@ -331,23 +331,23 @@ ANNOUNCE_STRINGS = {
 		HUNGER = {
 			FULL  = "Eu deveria estar fazendo pesquisa, não me enchendo.",
 			HIGH  = "Cheia, mas não inchada.",
-			MID   = "Eu estou me sentindo um pouco peckish.",
-			LOW   = "Está bibliotecária precisa de comida, eu tenho medo!",
+			MID   = "Eu estou me sentindo um pouco faminta.",
+			LOW   = "Esta bibliotecária precisa de comida, eu estou com medo!",
 			EMPTY = "Se eu não conseguir comida imediatamente, vou morrer de fome!",
 		},
 		SANITY = {
 			FULL  = "Nada irracional acontecendo aqui.",
 			HIGH  = "Eu acredito que tenho um pouco de dor de cabeça.",
 			MID   = "Estas enxaquecas são insuportáveis.",
-			LOW   = "Eu não tenho certeza se essas coisas são imaginárias, mas!",
+			LOW   = "Eu não tenho mais certeza se essas coisas são imaginárias!",
 			EMPTY = "Ajuda! Essas abominações insondáveis são hostis!",
 		},
 		HEALTH = {
 			FULL  = "Estou tão em forma como pode ser esperado para a minha idade!",
 			HIGH  = "Algumas contusões, mas nada importante.",
-			MID   = "Minhas necessidades médicas são montagem.",
+			MID   = "Minhas necessidades médicas precisam de atenção.",
 			LOW   = "Sem tratamento, este será o meu fim!",
-			EMPTY = "Requerem atenção médica imediata!",
+			EMPTY = "Preciso de atenção médica imediata!",
 		},
 		WETNESS = {
 			FULL  = "Positivamente encharcada!",
